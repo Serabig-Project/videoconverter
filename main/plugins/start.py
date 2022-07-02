@@ -47,7 +47,7 @@ async def source(event):
     await event.edit(source_text,
                     buttons=[[
                          Button.url("FOR PERSONAL USE", url="https://github.com/vasusen-code/videoconvertor/tree/main"),
-                         Button.url("FOR YOUR CHANNEL ", url="https://github.com/vasusen-code/videoconvertor/")]])
+                         Button.url("FOR YOUR CHANNEL Use ", url="https://github.com/vasusen-code/videoconvertor/")]])
                     
 @Drone.on(events.callbackquery.CallbackQuery(data="help"))
 async def help(event):
